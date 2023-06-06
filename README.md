@@ -17,5 +17,5 @@ https://github.com/WagDevX/meu-site-portfolio/blob/1babeeb75f95822305d95a4792127
 Aqui importamos nosso cv da da pasta assets e referenciamos ao nosso botão de download, e também o botão de enviar uma mensagem que se referencia e encaminha à nossa seção de contato
 https://github.com/WagDevX/meu-site-portfolio/blob/ed89fde33774bf66f95f4de6a9c5c6f9f03c25fe/src/components/header/CTA.jsx#L1-L13
 
-Aqui temos nosso HeaderSocials onde importamos três ícones e adicionamos à nossa const HeaderSocials para redirecionarmos o usuário às redes sociais em outra aba com taget="_blank"
+Aqui importamos três ícones e adicionamos à nossa const HeaderSocials para redirecionarmos o usuário às redes sociais em outra aba com taget="_blank"
 https://github.com/WagDevX/meu-site-portfolio/blob/6e0077b555ee9bcf66bdc16ca4c852b1de36bc84/src/components/header/HeaderSocials.jsx#L1-L16
