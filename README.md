@@ -10,7 +10,6 @@ https://github.com/WagDevX/meu-site-portfolio/blob/989f08245c48d8ba5dbb06ebaa802
 https://github.com/WagDevX/meu-site-portfolio/blob/c04b176f014945931a42c6d1ab76c90f5b4cd6d4/src/index.js#L1-L5
 
 # Elementos da página
-
-### Iniciando então com nosso header
+## Header
 #### Aqui importamos nosso cv da da pasta assets e referenciamos ao nosso botão de download, e também o botão de enviar uma mensagem que se referencia e encaminha à nossa seção de contato
 https://github.com/WagDevX/meu-site-portfolio/blob/ed89fde33774bf66f95f4de6a9c5c6f9f03c25fe/src/components/header/CTA.jsx#L1-L13
