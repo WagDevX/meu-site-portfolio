@@ -11,7 +11,7 @@ https://github.com/WagDevX/meu-site-portfolio/blob/c04b176f014945931a42c6d1ab76c
 
 # Componentes da página
 ## NAV
-Aqui temos nossa barra de navegação onde cada icone redireciona para uma seção específica
+Aqui temos nossa barra de navegação onde cada icone redireciona para uma seção específica, e utilizamos useEffect e useState para atualizarmos o estado de ativo dos botões quando eles são chamados ou quando o usuário rola para baixo os botões vão sendo atualizados como ativos se a seção está 70% visível na tela
 https://github.com/WagDevX/meu-site-portfolio/blob/06c4143773663535452459c64ff365cc9fa40d24/src/components/nav/Nav.jsx#L1-L81
 
 ## Header
