@@ -11,7 +11,7 @@ https://github.com/WagDevX/meu-site-portfolio/blob/c04b176f014945931a42c6d1ab76c
 
 # Componentes da página
 ## NAV
-Aqui temos nossa barra de navegação onde cada icone redireciona para uma seção específica, e utilizamos <b>useEffect</b> e <b>useState</b> para atualizarmos o estado de ativo dos botões quando eles são chamados ou quando o usuário rola para baixo os botões vão sendo atualizados como ativos se a seção está <b>80%</b> visível na tela
+Aqui temos nossa barra de navegação onde cada icone redireciona para uma seção específica, e utilizamos <b>useEffect</b> e <b>useState</b> para atualizarmos o estado de ativo dos botões quando eles são chamados ou quando o usuário rola para baixo os botões vão sendo atualizados como ativos se a seção estiver <b>80%</b> visível na tela
 https://github.com/WagDevX/meu-site-portfolio/blob/06c4143773663535452459c64ff365cc9fa40d24/src/components/nav/Nav.jsx#L1-L81
 
 ## Header
@@ -48,3 +48,20 @@ https://github.com/WagDevX/meu-site-portfolio/blob/d47350713e5e1c9d891a70db34da9
 
 Aqui temos nosso <b>services.css</b> onde estilizamos todos os itens acima pelo <b>className</b> e utilizando <b>media queries</b> para trazermos reponsividade à tablets e smartphones
 https://github.com/WagDevX/meu-site-portfolio/blob/d47350713e5e1c9d891a70db34da9727b6c0c526/src/components/services/services.css#L1-L71
+
+## Portfolio
+Aqui temos nossa seção <b>Portfolio</b> onde importamos as imagens e utilizamos dentro da const data e utilizamos o método <b>.map</b> para gerarmos de forma diâmica os itens da seção
+https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/portfolio/Portfolio.jsx#L1-L72
+Aqui temos nosso <b>portfolio.css</b> onde estilizamos todos os itens acima pelo <b>className</b> e utilizando <b>media queries</b> para trazermos reponsividade à tablets e smartphones
+https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/portfolio/portfolio.css#L1-L52
+
+## Projects
+Aqui onde mostramos os detalhes dos <b>projetos</b> da seção acima utilizando a biblioteca <bSwiperJS</b> para apresentaar slides de uma forma moderna, estilizada e fácil de se implementar
+https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/projects/Projects.jsx#L1-L86
+Aqui temos nosso <b>projects.css</b> onde estilizamos todos os itens acima pelo <b>className</b> e utilizando <b>media queries</b> para trazermos reponsividade à tablets e smartphones, dessa vez referenciando o <b>container.</b> do nosso <b>index.css</b> para alteramos o atributo <b>width</b> e <b>padding-botton</b>
+https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/projects/projects.css#L1
+
+## Contact
+Aqui temos nossa seção de <b>Contato</b> onde redirecionamos o usuário para enviar um email, mensagem no instagram, whatsapp ou enviar uma mensagem diretamente do formulário implementado utilizando a biblioteca <b>emailJS</b>, para utilizá-la é necessário criar uma conta no site e, serviço de email e template para receber os emails do formulário e em seguida pegando os as chaves e implementado no nosso <b>Contact.jsx</b>
+https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/contact/Contact.jsx#L1-L56
+
