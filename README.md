@@ -32,7 +32,7 @@ Aqui temos nosso about.css onde estilizamos todos os items referenciado-os pelo 
 https://github.com/WagDevX/meu-site-portfolio/blob/e9a8df5d89635c125f43d775352869b31dc2834f/src/components/about/about.css#L1-L114
 
 ## Experience 
-Aqui temos nossa seção sobre meus conhecimentos em tecnologias de FrontEnd e BackEnd onde cada tecnlogia é referenciada dentro de artigos {/*<article><article/>*/} dentro da div experience__content
+Aqui temos nossa seção sobre meus conhecimentos em tecnologias de FrontEnd e BackEnd onde cada tecnlogia é referenciada dentro de artigos dentro da div experience__content
 https://github.com/WagDevX/meu-site-portfolio/blob/ab0a54ab26b82eb0e17c671abe15b5d272e92a8e/src/components/experience/Experience.jsx#L1-L96
   
 Aqui temos nosso eperience.css onde estilizamos os artigos, títulos e divs e utilizando media queries para trazermos reponsividade à tablets e smartphones
