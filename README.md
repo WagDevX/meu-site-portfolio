@@ -41,3 +41,10 @@ https://github.com/WagDevX/meu-site-portfolio/blob/ab0a54ab26b82eb0e17c671abe15b
   
 Aqui temos nosso <b>eperience.css</b> onde estilizamos os <b>artigos</b>, <b>títulos</b> e <b>divs</b> e utilizando <b>media queries</b> para trazermos reponsividade à tablets e smartphones
 https://github.com/WagDevX/meu-site-portfolio/blob/ab0a54ab26b82eb0e17c671abe15b5d272e92a8e/src/components/experience/experience.css#L1-L71
+
+## Services
+Aqui temos os <b>Serviços</b> oferecidos dentro de três artigos com listas e parágrafos dentro deles
+https://github.com/WagDevX/meu-site-portfolio/blob/d47350713e5e1c9d891a70db34da9727b6c0c526/src/components/services/Services.jsx#L1-L96
+
+Aqui temos nosso <b>services.css</b> onde estilizamos todos os itens acima pelo <b>className</b> e utilizando <b>media queries</b> para trazermos reponsividade à tablets e smartphones
+https://github.com/WagDevX/meu-site-portfolio/blob/d47350713e5e1c9d891a70db34da9727b6c0c526/src/components/services/services.css#L1-L71
