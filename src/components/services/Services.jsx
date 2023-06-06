@@ -43,11 +43,11 @@ const Services = () => {
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Web apps reponsivos para todas as plataformas.</p>
+            <p>Apps reponsivos para todas as plataformas.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Sistemas ingtegrados com banco de dados pupulares como Firebase e MongoDB.</p>
+            <p>Sistemas ingtegrados com banco de dados.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
@@ -71,7 +71,7 @@ const Services = () => {
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Integração com banco de dados Firebase ou PostgreeSQL.</p>
+            <p>Integração com banco de dados.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
@@ -79,7 +79,7 @@ const Services = () => {
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Sistemas completo com login e registro de usuário.</p>
+            <p>Sistemas completos com login e registro.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
