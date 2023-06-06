@@ -75,23 +75,23 @@ const Services = () => {
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Python KivyMD Development.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Integration with firebase or PostgreeSQL Databases.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>UI Design with KivyMD Widgets.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Complete systems with login and user registration.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Fast Development with kivy.</p>
           </li>
         </ul>
       </article>
