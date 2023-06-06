@@ -2,8 +2,9 @@ import React from "react";
 import "./projects.css";
 import AVTR1 from "../../assets/wsol-favicon.png";
 import AVTR2 from "../../assets/wsol-av.png";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import AVTR3 from "../../assets/avatar3.png";
+import AVTR4 from "../../assets/avatar4.png";
+import AVTR5 from "../../assets/avatar5.png";
 
 // import Swiper core and required modules
 import { Pagination, Navigation} from 'swiper';
@@ -46,7 +47,7 @@ const projects_info = [
   },
   {
     id: 4,
-    image: AVTR4,
+    image: AVTR5,
     title: "Portfolio Site",
     description:
       "Site portfolio construído com React e Node com intuito de divulgação dos meus projetos e captação de vagas e clientes.",
@@ -56,8 +57,8 @@ const projects_info = [
 const Projects = () => {
   return (
     <section id="projects">
-      <h5>Projects details</h5>
-      <h2>Projects</h2>
+      <h5>Detalhes dos projetos</h5>
+      <h2>Projetos</h2>
       <Swiper className="container details__container"
       // install Swiper modules
       modules={[Pagination]}

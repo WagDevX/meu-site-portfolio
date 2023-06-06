@@ -5,93 +5,85 @@ import {BiCheck} from 'react-icons/bi'
 const Services = () => {
   return (
     <section id='services'>
-    <h5>What I offer</h5>
-    <h2>Services</h2>
+    <h5>O que eu ofereço</h5>
+    <h2>Serviços</h2>
     <div className="container services__container">
       <article className='service'>
         <div className="service__head">
-          <h3>UI/UX Design</h3>
+          <h3>Automação</h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>WebScrapping para coleta de dados úteis.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Automação de processos repetitivos.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Automação para enviar mensagens em lote.</p>
           </li>
         </ul>
       </article>
       {/*END OF UI/UX */}
       <article className='service'>
         <div className="service__head">
-          <h3>Web Development</h3>
+          <h3>Deselvolvimento Web</h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Web apps completos com React e NodeJS.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Designs elegantes e inovadores.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Web apps reponsivos para todas as plataformas.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Sistemas ingtegrados com banco de dados pupulares como Firebase e MongoDB.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Sites dinâmicos ou estáticos.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Totalmente aberto a críticas construtivas.</p>
           </li>
         </ul>
       </article>
       {/*END OF WEB DEVELOPMENT */}
       <article className='service'>
         <div className="service__head">
-          <h3>App Development</h3>
+          <h3>Densenvolvimento de Aplicativos</h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Python KivyMD Development.</p>
+            <p>Desenvolvimento com Python KivyMD.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Integration with firebase or PostgreeSQL Databases.</p>
+            <p>Integração com banco de dados Firebase ou PostgreeSQL.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>UI Design with KivyMD Widgets.</p>
+            <p>UI Design com widgets do KivyMD.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Complete systems with login and user registration.</p>
+            <p>Sistemas completo com login e registro de usuário.</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Fast Development with kivy.</p>
+            <p>Desenvolvimento rápido com kivy.</p>
           </li>
         </ul>
       </article>
