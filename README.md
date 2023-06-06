@@ -24,5 +24,5 @@ Por último temos nosso header.css para estilizarmos todos os items da nossa se�
 https://github.com/WagDevX/meu-site-portfolio/blob/4600cdb6bd7a929d4521aaba91aceed9428a392a/src/components/header/header.css#L1-L85
 
 ## About 
-Aqui temos nossa seção about onde colocamos algumas informações dentro de cards e adicionamos um parágrafo para posteriormentes ser estilizado no .css
+Aqui temos nossa seção about onde colocamos algumas informações dentro de cards, uma imagem e adicionamos um parágrafo e um botão para enviar mensagem que redireciona à nossa seção de contato
 https://github.com/WagDevX/meu-site-portfolio/blob/b0c89685574d61fccd522b5637edd0651451f319/src/components/about/About.jsx#L1-L48
