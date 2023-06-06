@@ -9,7 +9,7 @@ https://github.com/WagDevX/meu-site-portfolio/blob/989f08245c48d8ba5dbb06ebaa802
 E por último dentro de src temos o index.js onde é renderizado o componente App no elemento com id "#root", assim como é chamado no index.css acima:
 https://github.com/WagDevX/meu-site-portfolio/blob/c04b176f014945931a42c6d1ab76c90f5b4cd6d4/src/index.js#L1-L5
 
-# Elementos da página
+# Componentes da página
 ## Header
 Aqui temos nosso Header onde definimos a estrutura e importamos os botões de download e menssagem, assim como os botões das redes sociais:
 https://github.com/WagDevX/meu-site-portfolio/blob/1babeeb75f95822305d95a4792127337c47bc771/src/components/header/Header.jsx#L1-L28
