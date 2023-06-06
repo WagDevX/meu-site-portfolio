@@ -59,7 +59,7 @@ https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad1
 Aqui onde mostramos os detalhes dos <b>projetos</b> da seção acima utilizando a biblioteca <bSwiperJS</b> para apresentaar slides de uma forma moderna, estilizada e fácil de se implementar
 https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/projects/Projects.jsx#L1-L86
 Aqui temos nosso <b>projects.css</b> onde estilizamos todos os itens acima pelo <b>className</b> e utilizando <b>media queries</b> para trazermos reponsividade à tablets e smartphones, dessa vez referenciando o <b>container.</b> do nosso <b>index.css</b> para alteramos o atributo <b>width</b> e <b>padding-botton</b>
-https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/projects/projects.css#L1
+https://github.com/WagDevX/meu-site-portfolio/blob/ab46da1fe2a1cf6f4f57f0edc2ad192f81c881a3/src/components/projects/projects.css#L1-L70
 
 ## Contact
 Aqui temos nossa seção de <b>Contato</b> onde redirecionamos o usuário para enviar um email, mensagem no instagram, whatsapp ou enviar uma mensagem diretamente do formulário implementado utilizando a biblioteca <b>emailJS</b>, para utilizá-la é necessário criar uma conta no site e, serviço de email e template para receber os emails do formulário e em seguida pegando os as chaves e implementado no nosso <b>Contact.jsx</b>
