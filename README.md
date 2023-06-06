@@ -27,5 +27,5 @@ https://github.com/WagDevX/meu-site-portfolio/blob/4600cdb6bd7a929d4521aaba91ace
 Aqui temos nossa seção about onde colocamos algumas informações dentro de cards, uma imagem e adicionamos um parágrafo e um botão para enviar mensagem que redireciona à nossa seção de contato
 https://github.com/WagDevX/meu-site-portfolio/blob/b0c89685574d61fccd522b5637edd0651451f319/src/components/about/About.jsx#L1-L48
 
-Aqui temos nosso about.css onde estilizamos todos os items referenciado-os pelo className declarados acima e utilizando media queries para trazermos reponsividade à tablets e smartphones
+Aqui temos nosso about.css onde estilizamos todos os items referenciado-os pelo # className declarados acima e utilizando media queries para trazermos reponsividade à tablets e smartphones
 https://github.com/WagDevX/meu-site-portfolio/blob/e9a8df5d89635c125f43d775352869b31dc2834f/src/components/about/about.css#L1-L114
