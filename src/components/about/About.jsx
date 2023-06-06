@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id="about">
       <h5>Saiba</h5>
-      <h2>Sobre mim</h2>
+      <h2 data-value="Sobre mim">Sobre mim</h2>
       <div className="container about__container">
         <div className="about__me">
         <div className="about__me-image">
