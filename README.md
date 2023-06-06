@@ -20,5 +20,5 @@ https://github.com/WagDevX/meu-site-portfolio/blob/ed89fde33774bf66f95f4de6a9c5c
 Aqui importamos três ícones e adicionamos à nossa const HeaderSocials para redirecionarmos o usuário às redes sociais em outra aba com taget="_blank"
 https://github.com/WagDevX/meu-site-portfolio/blob/6e0077b555ee9bcf66bdc16ca4c852b1de36bc84/src/components/header/HeaderSocials.jsx#L1-L16
 
-Por último temos nosso header.css para estilizarmos todos os items da nossa seção header referenciado-os pelo className e utilizando media queries para trazermos reponsividade a tablets e smartphones
+Por último temos nosso header.css para estilizarmos todos os items da nossa seção header referenciado-os pelo className e utilizando media queries para trazermos reponsividade à tablets e smartphones
 https://github.com/WagDevX/meu-site-portfolio/blob/4600cdb6bd7a929d4521aaba91aceed9428a392a/src/components/header/header.css#L1-L85
