@@ -9,3 +9,4 @@ https://github.com/WagDevX/meu-site-portfolio/blob/989f08245c48d8ba5dbb06ebaa802
 ### E por último dentro de src temos o index.js onde é renderizado o componente App no elemento com id "#root", assim como é chamado no index.css acima:
 https://github.com/WagDevX/meu-site-portfolio/blob/c04b176f014945931a42c6d1ab76c90f5b4cd6d4/src/index.js#L1-L5
 
+#Elementos da página
