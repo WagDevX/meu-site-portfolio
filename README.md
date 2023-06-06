@@ -10,6 +10,10 @@ E por último dentro de src temos o index.js onde é renderizado o componente Ap
 https://github.com/WagDevX/meu-site-portfolio/blob/c04b176f014945931a42c6d1ab76c90f5b4cd6d4/src/index.js#L1-L5
 
 # Componentes da página
+## NAV
+Aqui temos nossa barra de navegação onde cada icone redireciona para uma seção específica
+https://github.com/WagDevX/meu-site-portfolio/blob/06c4143773663535452459c64ff365cc9fa40d24/src/components/nav/Nav.jsx#L1-L81
+
 ## Header
 Aqui temos nosso Header onde definimos a estrutura e importamos os botões de download e menssagem, assim como os botões das redes sociais
 https://github.com/WagDevX/meu-site-portfolio/blob/1babeeb75f95822305d95a4792127337c47bc771/src/components/header/Header.jsx#L1-L28
@@ -23,6 +27,7 @@ https://github.com/WagDevX/meu-site-portfolio/blob/6e0077b555ee9bcf66bdc16ca4c85
 Por último temos nosso header.css para estilizarmos todos os items da nossa seção header referenciado-os pelo className e utilizando media queries para trazermos reponsividade à tablets e smartphone[
 ](https://github.com/WagDevX/meu-site-portfolio/blob/ab0a54ab26b82eb0e17c671abe15b5d272e92a8e/src/components/experience/experience.css#L1)
 https://github.com/WagDevX/meu-site-portfolio/blob/4600cdb6bd7a929d4521aaba91aceed9428a392a/src/components/header/header.css#L1-L85
+
 
 ## About 
 Aqui temos nossa seção about onde colocamos algumas informações dentro de cards, uma imagem e adicionamos um parágrafo e um botão para enviar mensagem que redireciona à nossa seção de contato
