@@ -5,7 +5,7 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageDetail} from 'react-icons/bi'
-import {useState, useEffect, useRef} from 'react'
+import {useState, useEffect} from 'react'
 
 
 const Nav = () => {
