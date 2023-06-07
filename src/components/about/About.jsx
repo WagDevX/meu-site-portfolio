@@ -4,7 +4,7 @@ import ME from '../../assets/me-about3.jpg'
 import {FaAward} from 'react-icons/fa'
 import {FaUniversity} from 'react-icons/fa'
 import {VscFolderLibrary} from 'react-icons/vsc'
-import Fade from 'react-reveal/Fade';
+import Fade from 'react-reveal'
 
 
 const About = () => {
