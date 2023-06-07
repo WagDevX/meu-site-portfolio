@@ -11,7 +11,7 @@ function runHoverAnimation() {
   const h1Element = document.querySelector("h1");
 
   function animateText() {
-    let iteration = 0;
+    let iteration = -2;
     let interval = setInterval(() => {
       h1Element.innerText = h1Element.innerText
         .split("")
@@ -28,7 +28,7 @@ function runHoverAnimation() {
         clearInterval(interval);
       }
 
-      iteration += 1 / 4;
+      iteration += 1 / 3;
     }, 30);
   }
 
