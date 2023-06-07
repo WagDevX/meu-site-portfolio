@@ -8,7 +8,8 @@ import emailjs from 'emailjs-com'
 
 import Fade from 'react-reveal/Fade';
 
-const Contact = () => {
+const Contact = ({translations, currentLanguage}) => {
+  const contTranslations = translations[currentLanguage];
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,8 +20,8 @@ const Contact = () => {
   return (
     <section id='contact'>
       <Fade bottom cascade delay={150}>
-      <h5>Entre em contato</h5>
-      <h2>Contatos</h2>
+      <h5>{contTranslations.contact_h5}</h5>
+      <h2>{contTranslations.contact_h2}</h2>
       </Fade>
       <div className="container contact__container">
       <Fade bottom cascade delay={150}>
@@ -29,19 +30,19 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>waguinbk@gmail.com</h5>
-            <a href="mailto:waguinbk@gmail.com">Enviar mensagem</a>
+            <a href="mailto:waguinbk@gmail.com">{contTranslations.contact_whisper}</a>
           </article>
           <article className='contact__option'>
             <FiInstagram className='contact__option-icon'/>
             <h4>Instagram</h4>
             <h5>Wagner Araujo</h5>
-            <a href="https://ig.me/m/wagner.araujooo" target='_blank'>Enviar mensagem</a>
+            <a href="https://ig.me/m/wagner.araujooo" target='_blank'>{contTranslations.contact_whisper}</a>
           </article>
           <article className='contact__option'>
             <BsWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>DD 41 123456789</h5>
-            <a href="https://api.whatsapp.com/send?phone=5541984990858" target='_blank'>Enviar mensagem</a>
+            <a href="https://api.whatsapp.com/send?phone=5541984990858" target='_blank'>{contTranslations.contact_whisper}</a>
           </article> 
         </div>
         </Fade>
@@ -49,10 +50,10 @@ const Contact = () => {
         <Fade bottom cascade delay={150}>
         <form ref={form} onSubmit={sendEmail}>
         
-          <input type="text" name='name' placeholder='Seu nome completo' required/>
-          <input type="email" name='email' placeholder='Seu email' required/>
-          <textarea name="message" rows="7" placeholder='Sua mensagem' required></textarea>
-          <button type='submit' className='btn btn-primary'>Enviar mensagem</button>
+          <input type="text" name='name' placeholder={contTranslations.contact_form_l1} required/>
+          <input type="email" name='email' placeholder={contTranslations.contact_form_l2} required/>
+          <textarea name="message" rows="7" placeholder={contTranslations.contact_form_l3} required></textarea>
+          <button type='submit' className='btn btn-primary'>{contTranslations.contact_whisper}</button>
         </form>
         </Fade>
       </div>

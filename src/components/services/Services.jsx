@@ -3,89 +3,90 @@ import './services.css'
 import {BiCheck} from 'react-icons/bi'
 import Fade from 'react-reveal'
 
-const Services = () => {
+const Services = ({translations, currentLanguage}) => {
+  const servTranstlations = translations[currentLanguage];
   return (
     <section id='services'>
     <Fade bottom cascade delay={150}>
-    <h5>O que eu ofereço</h5>
-    <h2>Serviços</h2>
+    <h5>{servTranstlations.services_h5}</h5>
+    <h2>{servTranstlations.services_h2}</h2>
     <div className="container services__container">
       <article className='service'>
         <div className="service__head">
-          <h3>Automação</h3>
+          <h3>{servTranstlations.services_aut}</h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>WebScrapping para coleta de dados úteis.</p>
+            <p>{servTranstlations.services_autl1}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Automação de processos repetitivos.</p>
+            <p>{servTranstlations.services_autl2}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Automação para enviar mensagens em lote.</p>
+            <p>{servTranstlations.services_autl3}</p>
           </li>
         </ul>
       </article>
-      {/*END OF UI/UX */}
+      {/*END OF AUTOMATION */}
       <article className='service'>
         <div className="service__head">
-          <h3>Deselvolvimento Web</h3>
+          <h3>{servTranstlations.services_web_h3}</h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Web apps completos com React e NodeJS.</p>
+            <p>{servTranstlations.services_webl1}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Designs elegantes e inovadores.</p>
+            <p>{servTranstlations.services_webl2}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Apps reponsivos para todas as plataformas.</p>
+            <p>{servTranstlations.services_webl3}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Sistemas ingtegrados com banco de dados.</p>
+            <p>{servTranstlations.services_webl4}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Sites dinâmicos ou estáticos.</p>
+            <p>{servTranstlations.services_webl5}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Totalmente aberto a críticas construtivas.</p>
+            <p>{servTranstlations.services_webl6}</p>
           </li>
         </ul>
       </article>
       {/*END OF WEB DEVELOPMENT */}
       <article className='service'>
         <div className="service__head">
-          <h3>Densenvolvimento de Aplicativos</h3>
+          <h3>{servTranstlations.services_apps_h3}</h3>
         </div>
         <ul className='service__list'>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Desenvolvimento com Python KivyMD.</p>
+            <p>{servTranstlations.services_appsl1}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Integração com banco de dados.</p>
+            <p>{servTranstlations.services_appsl2}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>UI Design com widgets do KivyMD.</p>
+            <p>{servTranstlations.services_appsl3}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Sistemas completos com login e registro.</p>
+            <p>{servTranstlations.services_appsl4}</p>
           </li>
           <li>
             <BiCheck className='service__list-icon'/>
-            <p>Desenvolvimento rápido com kivy.</p>
+            <p>{servTranstlations.services_appsl5}</p>
           </li>
         </ul>
       </article>

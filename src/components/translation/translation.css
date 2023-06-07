@@ -1,0 +1,48 @@
+.translation__container {
+    width: max-content;
+    padding: 0rem 1.7rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    top: 8%;
+    border-radius: 3rem;
+  }
+
+.translation__icon {
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    color: var(--color-primary);
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    font-size: 3rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.translation__icon:hover {
+    color: var(--color-white);
+}
+
+@keyframes spin {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+/* ------------------- MEDIA QUERIES (MEDIUM DEVICES) ------------ */
+@media screen and (max-width: 1024px) {
+    .translation__container {
+        top: 4%;
+    }
+}
+
+
+/* ------------------- MEDIA QUERIES (SMALL DEVICES) ------------ */
+@media screen and (max-width: 600px) {
+ 
+}
