@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
 import IMG6 from '../../assets/portfolio1.jpg'
+import Fade from 'react-reveal'
 
 const data = [
   {
@@ -61,6 +62,7 @@ const Portfolio = () => {
         {
           data.map(({id, image, title, github, demo}) => {
             return (
+              <Fade bottom cascade delay={150}>
               <article className='portfolio__item'>
                 <div className='portfolio__item-image'>
                   <img src={image} alt={title} />
@@ -69,8 +71,9 @@ const Portfolio = () => {
                     <div className="portfolio__item-cta">
                       <a href={github} className='btn' target='_blank'>Github</a>
                       <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
-                    </div>  
+                    </div>
               </article>
+              </Fade> 
             )
           })
         }

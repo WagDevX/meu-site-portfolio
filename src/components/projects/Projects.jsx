@@ -5,6 +5,7 @@ import AVTR2 from "../../assets/wsol-av.png";
 import AVTR3 from "../../assets/avatar3.png";
 import AVTR4 from "../../assets/avatar4.png";
 import AVTR5 from "../../assets/avatar5.png";
+import Fade from 'react-reveal'
 
 // import Swiper core and required modules
 import { Pagination, Navigation} from 'swiper';
@@ -57,6 +58,7 @@ const projects_info = [
 const Projects = () => {
   return (
     <section id="projects">
+      <Fade bottom cascade delay={150}>
       <h5>Detalhes dos projetos</h5>
       <h2>Projetos</h2>
       <Swiper className="container details__container"
@@ -79,6 +81,7 @@ const Projects = () => {
           );
         })}
       </Swiper>
+      </Fade>
     </section>
   );
 };

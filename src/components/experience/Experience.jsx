@@ -1,10 +1,13 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill} from "react-icons/bs";
+import Fade from 'react-reveal/Fade';
+
 
 const Experience = () => {
   return (
     <section id="experience">
+      <Fade bottom cascade delay={150}>
       <h5>Habilidades</h5>
       <h2>Conhecimentos</h2>
       <div className="container experience__container">
@@ -89,6 +92,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      </Fade>
     </section>
   );
 };

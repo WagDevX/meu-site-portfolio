@@ -1,10 +1,12 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
+import Fade from 'react-reveal'
 
 const Services = () => {
   return (
     <section id='services'>
+    <Fade bottom cascade delay={150}>
     <h5>O que eu ofereço</h5>
     <h2>Serviços</h2>
     <div className="container services__container">
@@ -89,6 +91,7 @@ const Services = () => {
       </article>
       {/*END OF APP DEVELOPMENT */}
     </div>
+    </Fade>
     </section>
   )
 }

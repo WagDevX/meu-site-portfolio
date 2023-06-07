@@ -3,11 +3,13 @@ import './footer.css'
 import {FaFacebook} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
 import {FiTwitter} from 'react-icons/fi'
+import Fade from 'react-reveal'
 
 const Footer = () => {
   return (
     <footer>
       <a href="#" className='footer__logo'>WAGNER</a>
+      <Fade bottom cascade delay={150}>
       <ul className='permalinks'>
         <li> <a href="#">Principal</a></li>
         <li> <a href="#about">Sobre</a></li>
@@ -27,6 +29,7 @@ const Footer = () => {
       <div className="footer__copyright">
         <small>&copy; 2023 Wagner Solutions. Todos os direitos reservados.</small>
       </div>
+      </Fade>
     </footer>
   )
 }
