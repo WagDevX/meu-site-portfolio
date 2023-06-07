@@ -1,4 +1,7 @@
 # Olá, seja bem vindo ao meu portfolio
+### Atualizações
+07/02/2023 - Adicionado um efeito de revelação em cascata com a biblioteca react-revals à todos os componentes
+https://github.com/WagDevX/meu-site-portfolio/blob/97b59db091820a07c64e636bffe44b8fd3121866/src/components/header/Header.jsx#L6
 ## APP
 Aqui iniciamos nosso app dentro de src importando os componentes da página e adicionando-os em nossa variável constante <b>(App)</b>
 https://github.com/WagDevX/meu-site-portfolio/blob/60b3bb7932479ba8e3d8984679a74bee9d2c5a78/src/App.jsx#L1-L28
