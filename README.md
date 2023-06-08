@@ -1,5 +1,7 @@
 # Olá, seja bem vindo ao meu portfolio
 ### Atualizações
+07/02/2023 - Adicionado mais uma nova funcionalidade, um ícone que alterna o idioma do portfolio entre inglês e português:
+https://github.com/WagDevX/meu-site-portfolio/blob/5e2292e656f0f5dcd2243ad347dd25ff6b634e48/src/App.jsx#L1-L210
 07/02/2023 - Adicionado um efeito de revelação em cascata com a biblioteca react-revals à todos os componentes
 https://github.com/WagDevX/meu-site-portfolio/blob/a3a9bb4547e7bb75deb2140617bfb469afd33087/src/components/header/Header.jsx#L6
 ## APP
