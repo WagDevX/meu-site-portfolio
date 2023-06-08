@@ -69,6 +69,8 @@ const translations = {
     portfolio_4_title: "100+ Python Exercises",
     portfolio_5_title: "This Portfolio",
     portfolio_6_title: "Admin sytem of this portfolio - Under construction",
+    project_h5: "Project details",
+    project_h2: "Projects",
     project_1_description: 
       "An app designed to organize and distribute tasks, as well as assist in the pricing and validity process at the company where I work, with a login system, user registration, and sector integration using Firebase.",
     project_2_description: 
@@ -77,6 +79,7 @@ const translations = {
       "A TikTok clone developed in collaboration with the British School of Technology (EBAC) during a 7-day hackathon, utilizing Firebase, React, NodeJS, and other technologies.",
     project_4_description: 
       "Over 100 exercises completed during the Python course offered by CursoEmVideo, taught by Professor Guanabara.",
+    project_4_title: "Python Exercises",
     project_5_description: 
       "A portfolio website built with React and Node, aimed at showcasing my projects and attracting job opportunities and clients.",
     contact_h5: "Get in touch",
@@ -150,6 +153,8 @@ const translations = {
     portfolio_4_title: "100+ Exercícios em Python",
     portfolio_5_title: "Este portfólio",
     portfolio_6_title: "Sistema admin deste portfólio - Em construção",
+    project_h5: "Detalhes dos projetos",
+    project_h2: "Projetos",
     project_1_description: 
       "App feito para organizar e distribuir tarefas, bem como auxilar no processo de precificação e validade na empresa onde trabalho, com sistema de login, cadastro de usuário e setor integrado ao firebase.",
     project_2_description: 
@@ -158,6 +163,7 @@ const translations = {
       "Clone do TikTok realizado juntamente com a Escola Britânica de Tecnologia(EBAC) em um hackathon de 7 dias, utilizando Firebase, React, NodeJS.. etc.",
     project_4_description: 
       "Mais de 100 exercícios realizados durante o curso de Python do CursoEmVideo do professor Guanabara.",
+    project_4_title: "Exercícios Python",
     project_5_description: 
       "Site portfolio construído com React e Node com intuito de divulgação dos meus projetos e captação de vagas e clientes.",
     contact_h5: "Entre em contato",

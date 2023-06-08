@@ -41,7 +41,7 @@ const Projects = ({translations, currentLanguage}) => {
     {
       id: 4,
       image: AVTR4,
-      title: "Exercícios Python",
+      title: proTranslations.project_4_title,
       description: proTranslations.project_4_description,
     },
     {
@@ -54,8 +54,8 @@ const Projects = ({translations, currentLanguage}) => {
   return (
     <section id="projects">
       <Fade bottom cascade delay={150}>
-        <h5>Detalhes dos projetos</h5>
-        <h2>Projetos</h2>
+        <h5>{proTranslations.project_h5}</h5>
+        <h2>{proTranslations.project_h2}</h2>
         <Swiper
           className="container details__container"
           // install Swiper modules
