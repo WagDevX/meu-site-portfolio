@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import {FaFacebook} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
-import {FiTwitter} from 'react-icons/fi'
+import {BsLinkedin} from 'react-icons/bs'
 import Fade from 'react-reveal'
 
 const Footer = ({translations, currentLanguage}) => {
@@ -24,7 +24,7 @@ const Footer = ({translations, currentLanguage}) => {
       <div className="footer__socials">
         <a href="https://www.facebook.com/profile.php?id=100089638257035"><FaFacebook/></a>
         <a href="https://www.instagram.com/wagner.araujooo/"><FiInstagram/></a>
-        <a href="https://twitter.com/AdbHeLL"><FiTwitter/></a>
+        <a href="https://www.linkedin.com/in/wagner-de-araujo-7b2854118/"><BsLinkedin/></a>
       </div>
 
       <div className="footer__copyright">
