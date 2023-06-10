@@ -15,7 +15,6 @@ const Contact = ({translations, currentLanguage}) => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-  
     emailjs.sendForm('service_596xxlp', 'template_aq8fr1y', form.current, 'wWUPhSl43Yd0iaRmp')
     MySwal.fire({
       title: 'Email enviado!',
