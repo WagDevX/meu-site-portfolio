@@ -13,26 +13,6 @@ const Services = ({translations, currentLanguage}) => {
     <div className="container services__container">
       <article className='service'>
         <div className="service__head">
-          <h3>{servTranstlations.services_aut}</h3>
-        </div>
-        <ul className='service__list'>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>{servTranstlations.services_autl1}</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>{servTranstlations.services_autl2}</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon'/>
-            <p>{servTranstlations.services_autl3}</p>
-          </li>
-        </ul>
-      </article>
-      {/*END OF AUTOMATION */}
-      <article className='service'>
-        <div className="service__head">
           <h3>{servTranstlations.services_web_h3}</h3>
         </div>
         <ul className='service__list'>

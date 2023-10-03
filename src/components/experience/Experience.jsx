@@ -39,14 +39,21 @@ const Experience = ({ translations, currentLanguage }) => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>KVLang</h4>
-                <small className="text-light">{expTranslations.front_kvlang}</small>
+                <h4>TailwindCSS</h4>
+                <small className="text-light">{expTranslations.front_tailwind}</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 <h4>React</h4>
+                <small className="text-light">{expTranslations.front_react}</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>StyledComponents</h4>
                 <small className="text-light">{expTranslations.front_react}</small>
               </div>
             </article>
@@ -58,7 +65,7 @@ const Experience = ({ translations, currentLanguage }) => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Python</h4>
+                <h4>Flutter</h4>
                 <small className="text-light">{expTranslations.back_python}</small>
               </div>
             </article>
@@ -79,21 +86,21 @@ const Experience = ({ translations, currentLanguage }) => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>PostgreSQL</h4>
+                <h4>SQLite</h4>
                 <small className="text-light">{expTranslations.back_post}</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Kivy</h4>
+                <h4>MongoDB</h4>
                 <small className="text-light">{expTranslations.back_kivy}</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>KivyMD</h4>
+                <h4>NextJS</h4>
                 <small className="text-light">{expTranslations.back_kivy}</small>
               </div>
             </article>

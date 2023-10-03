@@ -20,7 +20,7 @@ const Header = ({ translations, currentLanguage }) => {
         <CTA translations={translations} currentLanguage={currentLanguage}/>
         <HeaderSocials />
         <div className="me">
-          <img src={ME} alt="me"/>
+          <img src={ME} alt="me" height={450}/>
         </div>
         <Scrolldown translations={translations} currentLanguage={currentLanguage}/>
       </div>
