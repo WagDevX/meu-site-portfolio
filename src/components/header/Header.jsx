@@ -15,7 +15,7 @@ const Header = ({ translations, currentLanguage }) => {
     <Fade bottom cascade delay={150}>
       <div className="container header__container">
         <h5 id="helloWorld">{headerTranslations.print}</h5>
-        <h1 data-value="WAGNER_ARAUJO">WAGNER ARAUJO</h1>
+        <h1 id='head-name'  data-value="Wagner_Araujo">Wagner Araujo</h1>
         <h5 className="text-light">{headerTranslations.speciality}</h5>
         <CTA translations={translations} currentLanguage={currentLanguage}/>
         <HeaderSocials />

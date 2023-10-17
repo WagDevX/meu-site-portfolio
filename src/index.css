@@ -45,6 +45,10 @@ body {
 
 /* ------------------- GENERAL STYLES --------------*/
 
+/* #head-name {
+    font-family: monospace;
+} */
+
 .container {
     width: var(--container-width-lg);
     margin: 0 auto;

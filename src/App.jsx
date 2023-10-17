@@ -68,7 +68,7 @@ const translations = {
     portfolio_3_title: "Invent 1.0 - Python desktop app with customtkinter",
     portfolio_4_title: "Admin System of Pet Family E-Commerce",
     portfolio_5_title: "This Portfolio",
-    portfolio_6_title: "E-Commerce totally functional made with React, NextJS, MongoDB, StyledComponents",
+    portfolio_6_title: "Fully functional e-commerce made with React, NextJS, MongoDB, StyledComponents",
     portfolio_7_title: "Web version of APP Worktasks made w/ React, NextJS, TailwindCSS, Firebase, Firestore, MongoDB",
     project_h2: "Projects",
     project_1_description: 
